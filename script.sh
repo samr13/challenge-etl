@@ -36,15 +36,15 @@ end' > database.config
 #converting sql data to mongodb
 mongify check database.config
 mongify translation database.config >> translation_file.rb
-#mongify process database.config translation_file.rb
+mongify process database.config translation_file.rb
 
 #gettting mongo data to json files if needed
-#mongoexport --db toptal --collection person --out person.json
-#mongoexport --db toptal --collection term --out term.json
-#mongoexport --db toptal --collection class --out class.json
-#mongoexport --db toptal --collection building --out building.json
-#mongoexport --db toptal --collection class_term --out class_term.json
-#mongoexport --db toptal --collection term_enrolment --out term_enrolment.json
-#mongoexport --db toptal --collection class_enrolment --out class_enrolment.json
-#mongoexport --db toptal --collection check_in --out check_in.json
+mongoexport --db toptal --collection person --out person.json
+mongoexport --db toptal --collection term --out term.json
+mongoexport --db toptal --collection class --out class.json
+mongoexport --db toptal --collection building --out building.json
+mongoexport --db toptal --collection class_term --out class_term.json
+mongoexport --db toptal --collection term_enrolment --out term_enrolment.json
+mongoexport --db toptal --collection class_enrolment --out class_enrolment.json
+mongoexport --db toptal --collection check_in --out check_in.json
 
