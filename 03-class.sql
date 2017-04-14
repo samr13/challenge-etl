@@ -1,5 +1,4 @@
 INSERT INTO `hackathon`.`class` (`id`, `name`, credits) VALUES
-INSERT INTO `hackathon`.`class` (`id`, `name`, credits) VALUES
   (1, 'A0', 2)
 , (2, 'A1', 3)
 , (3, 'A2', 4)

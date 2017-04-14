@@ -1,5 +1,5 @@
 INSERT INTO `hackathon`.`building` (`id`, `name`, `coordinates`) VALUES
-, (1, 'Tamie', 'TBD')
+ (1, 'Tamie', 'TBD')
 , (2, 'Clora', 'TBD')
 , (3, 'Minta', 'TBD')
 , (4, 'Susann', 'TBD')

@@ -68,6 +68,7 @@ CREATE TABLE IF NOT EXISTS `hackathon`.`class_enrolment` (
   `term_enrolment_id` int NULL,
   `person_id` int NULL,
   `class_id` int NULL,
-  `grade` int NULL,
-  PRIMARY KEY (`id`))
+  `grade` int NULL
+  -- PRIMARY KEY (`id`)
+  )
 ENGINE = MyISAM;

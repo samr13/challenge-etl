@@ -1,4 +1,4 @@
-INSERT INTO `hackathon`.`person` (`id`, `year`, `period`) VALUES
+INSERT INTO `hackathon`.`term` (`id`, `year`, `period`) VALUES
   (1, 2000, 'A')
 , (2, 2000, 'B')
 , (3, 2000, 'C')
