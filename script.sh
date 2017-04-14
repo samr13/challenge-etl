@@ -14,9 +14,9 @@ mysql --user=root --password=root  hackathon < 07-class_enrolment.sql
 
 #Mongify. It takes care of all the foreign key and referential integrity constraints which exist in SQL while migrating the data in MongoDB.
 #Mongify helps you move your data without worrying about the IDs or foreign IDs. It allows you to embed data into documents, including polymorphic associations.
-#sudo apt-get install -y ruby ruby-dev libmysqlclient-dev
-#sudo gem install -y activerecord -v 3.1.3
-#sudo gem install -y mongify
+sudo apt-get install -y ruby ruby-dev libmysqlclient-dev
+sudo gem install -y activerecord -v 3.1.3
+sudo gem install -y mongify
 
 #database.config
 echo 'sql_connection do
@@ -48,3 +48,5 @@ mongoexport --db toptal --collection term_enrolment --out term_enrolment.json
 mongoexport --db toptal --collection class_enrolment --out class_enrolment.json
 mongoexport --db toptal --collection check_in --out check_in.json
 
+#install pymongo
+pip install pymongo
